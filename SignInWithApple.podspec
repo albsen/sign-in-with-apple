@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "13.0"
 
-  # s.source       = { :git => "https://github.com/Andreyco/sign-in-with-apple.git", :tag => "#{s.version}" }
-  s.source       = { :git => "https://github.com/Andreyco/sign-in-with-apple.git", :branch => "master" }
+  # s.source       = { :git => "https://github.com/albsen/sign-in-with-apple.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/albsen/sign-in-with-apple.git", :branch => "master" }
   s.source_files  = "ios/**/*.{h,m,swift}"
   s.swift_version = '5.0'
 
